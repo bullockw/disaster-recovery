@@ -46,12 +46,12 @@ oracle@<target-machine>$ ./start_ords.sh
 
 ## Verify the APEX application changes in the new Instance
 1. Navigate to the new APEX instance through a web browser i.e. https://<target-public-ip>:8888/ords/drpdb
-2. Login with the same workspace & admin credentials created in step 3 & 5 **Section 1**
+2. Login with the same workspace & admin credentials created in step 3 & 5 of **Lab Guide 200**
 ![](./screenshots/login.PNG)
 3. Select the **App Builder** icon.
 ![](./screenshots/app-build.PNG)
 4. Run the **Sample Database Application** by pressing the play button next when you hover over the applications.
-![](./screenshots/hover.PNG)
+![](./screenshots/hover.png)
 5. Navigate to the **Products** using the shopping cart icon on the left to verify the "Hat" product was added.
 ![](./screenshots/hat2.PNG)
     
