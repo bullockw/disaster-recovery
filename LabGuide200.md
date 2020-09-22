@@ -1,4 +1,4 @@
-#Configure APEX for DR
+# Configure APEX instance for DR 
 
 ## Create an APEX Workspace & Sample Application in the source instance
 1. Navigate to the APEX instance through a web browser i.e https://<public-ip>:8888/ords/<database-conection> and select **Administration Services** from the bottom of the page.
