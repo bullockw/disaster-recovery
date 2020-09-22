@@ -1,18 +1,12 @@
-# Oracle Cloud Platform: Active/Passive DR
-
-<!-- Comment out table of contents
-## Table of Contents
-[Introduction](#introduction)
--->
+# DR RackWare Deployment on OCI
 
 ## Introduction
-
-In this workshop, we'll take an in-depth look into the disaster recovery (DR) solutions that are leveraged by Oracle's customers. These solutions will cover the discussion around disaster recovery at both the application and database levels.
+Welcome to this workshop where we will deploy the RackWare Migration Manager (RMM) on OCI as a Disaster Recovery solution.
 
 ### Objectives
-- Leverage Rsync to sync application files between the primary and DR servers
-- Set up DR failover using Oracle Data Guard through the OCI console as well as through manual configurations.
-- Simulate DR for solution verification.
+- Deploy and configure RMM on OCI
+- Replicate APEX instances from source machines to autoprovision backup instances
+- Perform a failover operation to simulate a DR scenario
 <!-- 
 ## Table of Contents
 
