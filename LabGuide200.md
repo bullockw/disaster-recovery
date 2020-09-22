@@ -1,14 +1,6 @@
-# DR RackWare Deployment on OCI
+#Configure APEX for DR
 
-## Introduction
-Welcome to this workshop where we will deploy the RackWare Migration Manager (RMM) on OCI as a Disaster Recovery solution.
-
-### Objectives
-- Deploy and configure RMM on OCI
-- Replicate APEX instances from source machines to autoprovision backup instances
-- Perform a failover operation to simulate a DR scenario
-
-## Section 1: Create an APEX Workspace & Sample Application in the source instance
+## Create an APEX Workspace & Sample Application in the source instance
 1. Navigate to the APEX instance through a web browser i.e https://<public-ip>:8888/ords/<database-conection> and select **Administration Services** from the bottom of the page.
 ![](./screenshots/apex-admin.PNG)
 2. Login using the username *admin* and the database admin password. If prompted, reset the password upon login. Once logged in select **Create Workspace**
