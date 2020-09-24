@@ -8,7 +8,7 @@ This solution provides a Network Architecture deployment to demonstrate Disaster
 
 ## Quickstart Deployment
 ### Prerequisites
-1. Download the accompanying zip folder provided for this lab.
+1. Download & unzip the [Terraform zip file](https://github.com/bullockw/disaster-recovery/blob/master/terraform/DR-ORDS-RW.zip) to your local machine.
 
 2.  Create your own private/public key pair on your local system.
 3.  Zip up all of the files in to a zip folder. The zip file name is not important.
