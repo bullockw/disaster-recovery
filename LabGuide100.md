@@ -77,50 +77,50 @@ This solution provides a Network Architecture deployment to demonstrate Disaster
 5. Navigate to the resource manager tab in OCI. Then create a new stack to import the zip file.
     
     1. Import the zip file into the stack 
-    ![](rackwaresaleplay/ResourceManager.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager.PNG)
     
     2. Input the configuration for the instances.
-    ![](rackwaresaleplay/ResourceManager-Input-Basic.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-Input-Basic.PNG)
     
     3. Input the configuration for the vcn.
-    ![](rackwaresaleplay/ResourceManager-Network.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-Network.PNG)
     
     4. Copy your public and private key. Make sure you are using the correct format.
-    ![](rackwaresaleplay/ResourceManager-Keys.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-Keys.PNG)
     
     5. Input the configuration for the object storage.
-    ![](rackwaresaleplay/ResourceManager-ObjectStorage.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-ObjectStorage.PNG)
     
     6. Review 
-    ![](rackwaresaleplay/ResourceManager-Review.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-Review.PNG)
     
     ### Plans
 
     1.  Select plan from the dropdown menu.
-    ![](rackwaresaleplay/ResourceManager-Plan-2.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-Plan-2.PNG)
     
     2.  Make sure everything looks okay and then proceed
-    ![](rackwaresaleplay/ResourceManager-Plan-3.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-Plan-3.PNG)
     
     3.  Wait until the icon to turn green.
-    ![](rackwaresaleplay/ResourceManager-Plan-4.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-Plan-4.PNG)
     
     ### Apply
     
     1.  Select plan from the dropdown menu.
-    ![](rackwaresaleplay/ResourceManager-Apply-1.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-Apply-1.PNG)
     
     2.  Wait unitl the icon to turn green.
-    ![](rackwaresaleplay/ResourceManager-Apply-2.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-Apply-2.PNG)
 
     ### Destroy
 6.  First navigate to OCI Console and terminate the Standby database and once the termination is successfull then run the following command
 
     1.  Select destroy from the dropdown menu.
-    ![](rackwaresaleplay/ResourceManager-Destroy.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-Destroy.PNG)
     
     2.  Wait unitl the icon to turn green.
-    ![](rackwaresaleplay/ResourceManager-Destroy-2.PNG)
+    ![](./screenshots/rackwaresaleplay/ResourceManager-Destroy-2.PNG)
 
 ## Troubleshooting
    A possible issue you make face is not having enough resources. Test to make sure 
