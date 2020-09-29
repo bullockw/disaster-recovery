@@ -1,7 +1,7 @@
 # Configure APEX instance for DR 
 
 ## Create an APEX Workspace & Sample Application in the source instance
-1. Navigate to the APEX instance through a web browser i.e https://< public-ip >:8888/ords/<database-conection> and select **Administration Services** from the bottom of the page.
+1. Navigate to the APEX instance through a web browser i.e https://\<public-ip\>:8888/ords/<database-conection> and select **Administration Services** from the bottom of the page.
 ![](./screenshots/apex-admin.PNG)
 2. Login using the username *admin* and the database admin password. If prompted, reset the password upon login. Once logged in select **Create Workspace**
 ![](./screenshots/cr-wrkspc.PNG)
