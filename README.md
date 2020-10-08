@@ -8,6 +8,10 @@ Welcome to this workshop where we will deploy the RackWare Migration Manager (RM
 - Deploy and configure RMM on OCI
 - Replicate APEX instances from source machines to autoprovision backup instances
 - Perform a failover operation to simulate a DR scenario
+
+### Architecture Overview
+![](./screenshots/Rackwarediagram.png)
+
 <!-- 
 ## Table of Contents
 
