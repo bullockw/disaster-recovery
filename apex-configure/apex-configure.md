@@ -2,9 +2,9 @@
 
 ## Create an APEX Workspace & Sample Application in the source instance
 1. Navigate to the APEX instance through a web browser i.e https://\<public-ip>:8888/ords/drpdb and select **Administration Services** from the bottom of the page.
-![](./screenshots/apex-admin.PNG)
+![](./apex-configure/images/apex-admin.PNG)
 2. Login using the username *admin* and the database admin password. If prompted, reset the password upon login. Once logged in select **Create Workspace**
-![](./screenshots/cr-wrkspc.PNG)
+![](./apex-configure/images/cr-wrkspc.PNG)
 3. Give the workspace a name (e.g "DEV") and click Next.
 4. Add the following settings on the "Identify Schema" page:
     - **Re-use existing schema?:** No
@@ -19,18 +19,18 @@
     - **Email:** (Enter a valid email)
 6. Click **Create Workspace** on the confirmation page.
 7. Once the workspace is create log out of the **Administration Services**
-![](./screenshots/logout.PNG)
+![](./apex-configure/images/logout.PNG)
 8. Enter the workspace name created in step 3 and fill in the admin login created in step 5. Click  **Sign In**
-![](./screenshots/login.PNG)
+![](./apex-configure/images/login.PNG)
 9. On the landing page, select **App Gallery**
-![](./screenshots/app-gallery.PNG)
+![](./apex-configure/images/app-gallery.PNG)
 10. Select the **Sample Database Application** and click **Install App**
-![](./screenshots/db-app.PNG)
+![](./apex-configure/images/db-app.PNG)
 11. Once installed, click the green play button to run the App.
-![](./screenshots/run.PNG)
+![](./apex-configure/images/run.PNG)
 12. Log in using the same admin credentials created in step 5.
-![](./screenshots/admin-login.PNG)
+![](./apex-configure/images/admin-login.PNG)
 13. Make a change in the application to verify the successful replication later (e.g adding a new product "Hat")
-![](./screenshots/hat.PNG)
+![](./apex-configure/images/hat.PNG)
     
 We now have an APEX application that accesses the database to be replicated using RackWare!

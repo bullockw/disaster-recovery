@@ -10,15 +10,15 @@ Welcome to this workshop where we will deploy the RackWare Migration Manager (RM
 - Perform a failover operation to simulate a DR scenario
 
 ### Architecture Overview
-![](./screenshots/Rackwarediagram.png)
+![](./introduction/images/Rackwarediagram.png)
 
 <!-- 
 ## Table of Contents
 
-### [Lab 100: Disaster Recovery Network and connectivity Setup](LabGuide100.md)
+### [Lab 1: Disaster Recovery Network and connectivity Setup](LabGuide100.md)
   
-### [Lab 200: Configure APEX instance for DR](LabGuide200.md)
+### [Lab 2: Configure APEX instance for DR](LabGuide200.md)
 
-### [Lab 300: Setting Up RackWare DR components](LabGuide300.md)
+### [Lab 3: Setting Up RackWare DR components](LabGuide300.md)
 
-### [Lab 400: Complete DR Configuration & Perform Failover](LabGuide400.md) -->
+### [Lab 4: Complete DR Configuration & Perform Failover](LabGuide400.md) -->

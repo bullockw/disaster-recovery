@@ -8,51 +8,51 @@ opc@<target-machine>$ sudo su -
 root@<target-machine>$ vi /home/oracle/conf/ords/defaults.xml
 ```
 3. Change the db.hostname entry to relfect the IP of the backup database
-![](./screenshots/defaults-db.PNG)
+![](./dr-failover/images/defaults-db.PNG)
 
 4. Update the db.hostname in *ords_params.properties* file to reflect the IP of the backup database
 ```
 root@<target-machine>$ vi /home/oracle/params/ords_params.properties
 ```
-![](./screenshots/params-db.PNG)
+![](./dr-failover/images/params-db.PNG)
 5. Start the ORDS server on the target machine *(You must complete this step after each sync)*
 ```
 root@<target-machine>$ sudo su - oracle
 oracle@<target-machine>$ ./start_ords.sh
 ```
 6. Create a .txt file with the following two lines and save to your local machine:
-![](./screenshots/excl.PNG)
+![](./dr-failover/images/excl.PNG)
 7. From the RackWare GUI, locate the wave you replicated and click the blue name.
-![](./screenshots/rack-wave.PNG)
+![](./dr-failover/images/rack-wave.PNG)
 8. Click the blue edit box on the row of your host machine.
-![](./screenshots/edit.PNG)
+![](./dr-failover/images/edit.PNG)
 9. Under **Sync Options**, select the **Browse** button under **Upload local File** & add the .txt file created in step 6. Click **Modify**
-![](./screenshots/sync.PNG)
+![](./dr-failover/images/sync.PNG)
 *(This will make sure the new instance points to the backup database after every sync)*
 
 
 ## Conduct the failover operation to activate the backup database
 
 1. Navigate to the standby database
-![](./screenshots/db-nav.PNG)
+![](./dr-failover/images/db-nav.PNG)
 2. Click the database name under the backup DB System
-![](./screenshots/db-name.PNG)
+![](./dr-failover/images/db-name.PNG)
 3. Under **Resources** on the left, choose Data Guard Associations. Click the three dots on the right and select **Failover**
-![](./screenshots/failover.PNG)
+![](./dr-failover/images/failover.PNG)
 4. Enter the database password and click OK. The failover operation will take a few minutes to complete.
-![](./screenshots/db-pass.PNG)
+![](./dr-failover/images/db-pass.PNG)
 5. Navigate back to the StandbyDatabase DB system and look at the Peer Role under Data Guard Associations. It shows Disabled Standby which also reaffirms that the failover was successful.
-![](./screenshots/pr-role.PNG)
+![](./dr-failover/images/pr-role.PNG)
 
 ## Verify the APEX application changes in the new Instance
 1. Navigate to the new APEX instance through a web browser i.e. https://<target-public-ip>:8888/ords/drpdb
 2. Login with the same workspace & admin credentials created in step 3 & 5 of **Lab Guide 200**
-![](./screenshots/login.PNG)
+![](./dr-failover/images/login.PNG)
 3. Select the **App Builder** icon.
-![](./screenshots/app-build.PNG)
+![](./dr-failover/images/app-build.PNG)
 4. Run the **Sample Database Application** by pressing the play button next when you hover over the applications.
-![](./screenshots/hover.png)
+![](./dr-failover/images/hover.png)
 5. Navigate to the **Products** using the shopping cart icon on the left to verify the "Hat" product was added.
-![](./screenshots/hat2.PNG)
+![](./dr-failover/images/hat2.PNG)
     
 **Congratulations! If you see the change reflected in the new instance, you have successfully created a Disaster Recovery setup using RackWare on OCI!**
