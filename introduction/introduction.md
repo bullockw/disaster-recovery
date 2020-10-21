@@ -10,7 +10,7 @@ Welcome to this workshop where we will deploy the RackWare Migration Manager (RM
 - Perform a failover operation to simulate a DR scenario
 
 ### Architecture Overview
-![](./introduction/images/Rackwarediagram.png)
+![](./images/Rackwarediagram.png)
 
 <!-- 
 ## Table of Contents

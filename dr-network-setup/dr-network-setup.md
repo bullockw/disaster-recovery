@@ -77,50 +77,50 @@ This solution provides a Network Architecture deployment to demonstrate Disaster
 5. Navigate to the resource manager tab in OCI. Then create a new stack to import the zip file.
     
     1. Import the zip file into the stack 
-    ![](./dr-network-setup/images/ResourceManager.PNG)
+    ![](./images/ResourceManager.PNG)
     
     2. Input the configuration for the instances.
-    ![](./dr-network-setup/images/ResourceManager-Input-Basic.PNG)
+    ![](./images/ResourceManager-Input-Basic.PNG)
     
     3. Input the configuration for the vcn.
-    ![](./dr-network-setup/images/ResourceManager-Network.PNG)
+    ![](./images/ResourceManager-Network.PNG)
     
     4. Copy your public and private key. Make sure you are using the correct format.
-    ![](./dr-network-setup/images/ResourceManager-Keys.PNG)
+    ![](./images/ResourceManager-Keys.PNG)
     
     5. Input the configuration for the object storage.
-    ![](./dr-network-setup/images/ResourceManager-ObjectStorage.PNG)
+    ![](./images/ResourceManager-ObjectStorage.PNG)
     
     6. Review 
-    ![](./dr-network-setup/images/ResourceManager-Review.PNG)
+    ![](./images/ResourceManager-Review.PNG)
     
     ### Plans
 
     1.  Select plan from the dropdown menu.
-    ![](./dr-network-setup/images/ResourceManager-Plan-2.PNG)
+    ![](./images/ResourceManager-Plan-2.PNG)
     
     2.  Make sure everything looks okay and then proceed
-    ![](./dr-network-setup/images/ResourceManager-Plan-3.PNG)
+    ![](./images/ResourceManager-Plan-3.PNG)
     
     3.  Wait until the icon to turn green.
-    ![](./dr-network-setup/images/ResourceManager-Plan-4.PNG)
+    ![](./images/ResourceManager-Plan-4.PNG)
     
     ### Apply
     
     1.  Select plan from the dropdown menu.
-    ![](./dr-network-setup/images/ResourceManager-Apply-1.PNG)
+    ![](./images/ResourceManager-Apply-1.PNG)
     
     2.  Wait unitl the icon to turn green.
-    ![](./dr-network-setup/images/ResourceManager-Apply-2.PNG)
+    ![](./images/ResourceManager-Apply-2.PNG)
 
     ### Destroy
 6.  First navigate to OCI Console and terminate the Standby database and once the termination is successfull then run the following command
 
     1.  Select destroy from the dropdown menu.
-    ![](./dr-network-setup/images/ResourceManager-Destroy.PNG)
+    ![](./images/ResourceManager-Destroy.PNG)
     
     2.  Wait unitl the icon to turn green.
-    ![](./dr-network-setup/images/ResourceManager-Destroy-2.PNG)
+    ![](./images/ResourceManager-Destroy-2.PNG)
 
 ## Troubleshooting
    A possible issue you make face is not having enough resources. Test to make sure 
