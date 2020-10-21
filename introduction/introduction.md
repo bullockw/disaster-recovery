@@ -3,6 +3,8 @@
 ## Introduction
 Welcome to this workshop where we will deploy the RackWare Migration Manager (RMM) on OCI as a Disaster Recovery solution.
 
+Estimated Workshop Time: 2-3 hours
+
 ### Objectives
 - Use terraform to create an APEX instance for DR
 - Deploy and configure RMM on OCI
